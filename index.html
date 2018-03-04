@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Everything Movies Trivia!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+<body onload="myfunction()">
+    <div class="container">
+        <div class="row" id="wcm">
+            <h1 id="welcInfo"></h1>
+        </div>
+        <div class="row" id="btnn">
+            <div class="col-12">
+                <div class="wrapper">
+                    <div class="buttons">
+                        <button type="button" class="btn btn-light" id="startgame" onclick="startfunction()"><h4>Click Me To Get Started!</h4></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trivia">
+            <h1>Everything Movies Trivia!</h1>
+            <hr style="margin-bottom: 20px">
+            <h1 id="right"></h1>
+            <h1 id="timer"></h1>
+            <p id="question"></p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="wrapper">
+                        <div class="buttons">
+                            <button type="button" class="btn btn-secondary btn-lg btn-block" id="btn0"><h4 id="choice0"></h4></button>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="wrapper">
+                        <div class="buttons">
+                            <button type="button" class="btn btn-secondary btn-lg btn-block" id="btn1"><h4 id="choice1"></h4></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="wrapper">
+                        <div class="buttons">
+                           <button type="button" class="btn btn-secondary btn-lg btn-block" id="btn2"><h4 id="choice2"></h4></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="wrapper">
+                        <div class="buttons">
+                           <button type="button" class="btn btn-secondary btn-lg btn-block" id="btn3"><h4 id="choice3"></h4></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-top: 10px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
